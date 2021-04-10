@@ -1,5 +1,7 @@
 import requests
+import os
 from twilio.rest import Client
+from twilio.http.http_client import TwilioHttpClient
 
 MY_LAT = 37.1243
 MY_LONG = -77.2264
@@ -35,7 +37,10 @@ for hour_data in weather_slice:
         will_rain = True
 
 if will_rain:
-    client = Client(account_sid, auth_token)
+    proxy_client = TwilioHttpClient()
+    proxy_client.session.proxies = {'https': os.environ['https_proxy']}
+
+    client = Client(account_sid, auth_token,http_client=proxy_client)
 
     message = client.messages \
         .create(
@@ -44,6 +49,9 @@ if will_rain:
         to="18035421156",
     )
     print(message.status)
+
+
+
 # api_key = "52b85f4447b54dc9586a50465d83d0e1"
 #
 #

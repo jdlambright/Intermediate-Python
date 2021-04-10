@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\1 Previous Notes\29 password manager\data.txt">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\1 Previous Notes\31 Flashcard Capstone\capstone_main.py">
           <value>
             <Attribute>
@@ -70,6 +77,13 @@
           <value>
             <Attribute>
               <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\34-40\36_Stock_Api\stock_API_main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>

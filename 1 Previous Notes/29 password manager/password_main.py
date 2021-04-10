@@ -4,6 +4,7 @@ from random import randint, choice, shuffle
 import pyperclip
 import json
 
+#fail safe for twilio eEmKoSDr9SsUb5RPMJKUvXMyKvDMA-Bfsr8ULWaE
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():

@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\1 Previous Notes\29 password manager\data.json">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\1 Previous Notes\31 Flashcard Capstone\capstone_main.py">
           <value>
             <Attribute>
@@ -53,6 +60,13 @@
           </value>
         </entry>
         <entry key="\34-40\34 GUI Quiz Game\ui.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\34-40\35 Weather SMS\weather_alert_main.py">
           <value>
             <Attribute>
               <option name="separator" value="," />

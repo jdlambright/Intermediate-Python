@@ -18,5 +18,9 @@
     "test gmail": {
         "email": "cambrightjosh",
         "password": "Nolee123"
+    },
+    "twilio": {
+        "email": "cambrightjosh@gmail.com",
+        "password": "G7%&ogiNe82ooBA"
     }
 }

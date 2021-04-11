@@ -1,0 +1,15 @@
+request.get()
+-we ask the server for information and it brings it back
+ex what is the weather for the next 12 hrs
+
+request.post()
+- we give the server info but dont need anything back more than a confirmation it was a succes
+ex post a picture to instagram
+
+request.put()
+-update something in the server
+ex we go and update an excel spreadsheet on a server
+
+request.delete()
+-delete something in the server
+ex delate a post

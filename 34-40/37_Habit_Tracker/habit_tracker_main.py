@@ -40,7 +40,7 @@ pixel_creation_endpoint = f"{graph_endpoint}/{GRAPH_ID}"
 
 pixel_params = {
     "date": today.strftime("%Y%m%d"),
-    "quantity": "1"}
+    "quantity": "3"}
 
 response = requests.post(url=pixel_creation_endpoint, json=pixel_params, headers=headers)
 print(response.text)

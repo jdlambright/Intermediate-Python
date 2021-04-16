@@ -108,6 +108,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\34-40\39-40_Flight_Finder_Capstone\flight_search.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data.csv">
           <value>
             <Attribute>
